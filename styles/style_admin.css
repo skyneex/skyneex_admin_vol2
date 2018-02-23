@@ -1,0 +1,973 @@
+
+
+
+/* бронирование и сообщения */
+.letter_chern {
+position: absolute; left: 0; top: 0;
+width: 100%; height: 100%; z-index: 10;
+}
+
+.letter_main_block {
+position: relative; float: left; left: 50%;
+top: 50%; z-index: 20;
+-webkit-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}
+.letter_main_block_ {
+position: relative; float: left; width: 100%;
+background: #ffffff;
+}
+
+.letter_close {
+position: absolute; left: 100%; top: 0%;
+cursor: pointer;
+}
+
+.letter_zag {
+position: relative; float: left; width: 70%;
+color: #000000; font-family: psp3; text-transform: uppercase;
+}
+.letter_zag_ {
+position: absolute; left: 84%; top: 0%;
+color: #000000; font-family: psp1;
+}
+
+.letter_form {
+position: relative; float: left;
+}
+#polt1,#polt4,#polt3 {
+position: relative; float: left; outline: none;
+font-family: psp1; border: none; color: #5c5c5c;
+background: #f4f4f4;
+}
+
+.butotpravka {
+position: relative; float: left; text-align: center;
+font-family: psp3; color: #ffffff; cursor: pointer;
+background: #ff0000; text-transform: uppercase;
+}
+
+.letter_persona {
+position: relative; float: left; font-family: psp1;
+color: #8b8a8a;
+}
+.letter_persona span {
+text-decoration: underline; cursor: pointer;
+}
+.letter_persona input {
+position: absolute; top: 10%; right: 105%;
+}
+
+#mess {
+position: relative; float: left; width: 100%;
+font-family: psp1; color: #ffffff; text-align: center;
+text-shadow: 1px 1px 1px #000000;
+}
+
+
+
+
+
+/* главная */
+.main_text_wel {
+position: relative; float: left; margin: 2vw 0 0 0;
+font-family: psp2; font-size: 3vw; line-height: 3vw;
+color: #ffffff; width: 100%; text-align: center;
+text-transform: uppercase;
+}
+
+
+
+/* настройки */
+.setting_block1 {
+position: relative; float: left; width: 15%;
+height: 15.6vw; background: #ffffff; cursor: pointer;
+}
+.setting_block1_img {
+display: block; margin: 2vw auto 0 auto;
+width: 3.8vw;
+}
+.setting_block1_txt1 {
+position: absolute; left: 0; top: 9%;
+font-family: psp2; font-size: 3.9vw; line-height: 4.9vw;
+color: #000000; text-align: center; width: 100%;
+}
+.setting_block1_txt2 {
+position: absolute; left: 0; top: 50%;
+font-family: psp2; font-size: 1vw; line-height: 1vw;
+color: #000000; text-align: center; width: 100%;
+}
+.setting_block1_txt3 {
+position: absolute; left: 0; top: 72%;
+font-family: psp2; font-size: 0.9vw; line-height: 0.9vw;
+color: #0024ff; text-align: center; width: 100%;
+}
+.setting_block1:hover .setting_block1_txt3 {
+color: #ff0401;
+}
+.setting_block1:hover .setting_block1_txt1 {
+background-image: linear-gradient(to right, #ff2251, #0530fb);
+color:transparent; -webkit-background-clip: text; background-clip: text;
+}
+
+.setting_block2 {
+position: relative; float: left; width: 94%;
+background: #ffffff; margin: 2.6vw 0 0 3%;
+}
+.setting_block2_1 {
+position: relative; float: left; width: 36%;
+}
+.setting_block2_2 {
+position: relative; float: left; width: 64%;
+}
+.setting_block2_3 {
+position: relative; float: left; width: 100%;
+}
+.setting_block2_txt1 {
+position: relative; float: left; margin: 2.6vw 0 0 15%;
+font-family: psp2; font-size: 1.45vw; line-height: 1.45vw;
+color: #000000; width: 85%;
+}
+.setting_block2_txt2 {
+position: relative; float: left; margin: 4vw 0 0 15%;
+font-family: psp1; font-size: 1vw; line-height: 1vw;
+color: #000000; width: 85%;
+}
+
+.setting_but_save {
+position: relative; float: left; margin: 0 0 3vw 36%;
+font-family: psp2; font-size: 0.9vw; line-height: 0.9vw;
+color: #ffffff; background: #0024ff; padding: 1.3vw 0;
+cursor: pointer; text-align: center; width: 13vw;
+}
+
+.setting_block3 {
+position: relative; float: left; width: 65%;
+background: #ffffff; margin: 2.6vw 0 2.6vw 3%;
+}
+.setting_block3_1 {
+position: relative; float: left; width: 33.3%;
+cursor: pointer;
+}
+.setting_block3_txt1 {
+position: relative; float: left; margin: 2vw 0 4vw 0;
+font-family: psp2; font-size: 1vw; line-height: 1.2vw;
+color: #000000; width: 100%; text-align: center;
+}
+
+.setting_block4 {
+position: relative; float: right; width: 25%;
+background: #ffffff; margin: 2.6vw 3% 2.6vw 0;
+}
+.setting_block4_txt1 {
+position: relative; float: left; margin: 1vw 0 0 21%;
+font-family: psp2; font-size: 7vw; line-height: 7vw;
+color: #0024ff; width: 79%;
+}
+.setting_block4_txt2 {
+position: relative; float: left; margin: 0 0 0 21%;
+font-family: psp2; font-size: 1.3vw; line-height: 1.4vw;
+color: #000000; width: 79%; text-transform: uppercase;
+}
+.setting_block4_txt3 {
+position: relative; float: left; margin: 0.5vw 0 1.4vw 21%;
+font-family: psp2; font-size: 0.9vw; line-height: 1vw;
+color: #000000; width: 79%; opacity: 0.6;
+}
+
+
+
+/* ход строительства */
+.add_art {
+position: relative; float: left; margin: 3vw 0 0 3%;
+font-family: psp2; font-size: 0.85vw; line-height: 0.85vw;
+color: #ffffff; text-transform: uppercase; cursor: pointer;
+background: linear-gradient(to top, #ff4e11, #ff0000);
+padding: 1.5vw 2.4vw;
+}
+.add_art:hover {
+background: linear-gradient(to top, #385fd9, #271f5c) !important;
+}
+
+.artfoto {
+position: relative; float: left; width: 100%;
+}
+.foto_main_block {
+position: relative; float: left; width: 100%;
+margin: -25px 0 15px 0;
+}
+.foto_main_item {
+position: relative; float: left; width: 110px;
+height: 110px; margin: 50px 0 0 40px;
+}
+.foto_main_item_1 {
+position: absolute; left: 0; top: 0;
+width: 100%; height: 100%; cursor: pointer;
+}
+
+
+
+/* документы */
+#file_up_doc,#file_up_build {
+position: relative; float: left; margin: 3vw 0 0 3%;
+}
+#file_up_xml {
+position: relative; float: left; margin: 4vw 0 0 13%;
+}
+#file_up_doc .JSUploadForm,#file_up_build .JSUploadForm,#file_up_xml .JSUploadForm{
+background: none !important;
+box-shadow: none !important;
+padding: 0px !important;
+}
+#file_up_doc .JSFileChoos,#file_up_build .JSFileChoos {
+background: linear-gradient(to top, #ff4e11, #ff0000) !important;
+padding: 1.5vw 2.4vw !important;
+font-family: psp2 !important;
+font-size: 0.85vw !important;
+color: #ffffff !important;
+text-transform: uppercase !important;
+border-radius: unset !important;
+}
+#file_up_xml .JSFileChoos {
+background: linear-gradient(to top, #ff4e11, #ff0000) !important;
+padding: 1.3vw 0 !important;
+font-family: psp2 !important;
+font-size: 0.9vw !important;
+line-height: 0.9vw !important;
+color: #ffffff !important;
+text-transform: uppercase !important;
+border-radius: unset !important;
+width: 13vw !important;
+text-align: center !important;
+}
+#file_up_doc .JSFileChoos:hover,#file_up_build .JSFileChoos:hover {
+background: linear-gradient(to top, #385fd9, #271f5c) !important;
+}
+
+
+
+/* карточка квартиры */
+.form_select_spisok_item {
+transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+}
+
+.form_main_block {
+width: 930px; margin: 0 auto;
+}
+.form_main_block2 {
+position: relative; float: left; margin: 50px 0 50px 0;
+width: 790px; background: #ffffff; font-size: 14px;
+color: #ffffff; padding: 70px 70px 70px 70px; border-radius: 6px;
+}
+
+.admin_close {
+position: absolute; right: 70px; top: 50px;
+width: 34px; height: 34px; cursor: pointer;
+z-index: 10;
+}
+.admin_close1 {
+position: absolute; left: 0; top: 0;
+width: 100%; display: block; will-change: transform;
+}
+.admin_close2 {
+position: absolute; left: 0; top: 0;
+width: 100%; display: none; will-change: transform;
+}
+.admin_close:hover .admin_close1 {
+display: none;
+}
+.admin_close:hover .admin_close2 {
+display: block;
+}
+
+.form_main_text1 {
+position: relative; float: left; font-family: psp2;
+font-size: 18px; line-height: 18px; color: #000000;
+}
+.form_main_text2 {
+position: relative; float: left; margin: 4px 0 0 160px;
+font-family: psp2; font-size: 14px; line-height: 14px;
+color: #000000; opacity: 0.5;
+}
+.form_main_text3 {
+position: relative; float: left; margin: 4px 0 0 110px;
+font-family: psp2; font-size: 14px; line-height: 14px;
+color: #000000;
+}
+
+.form_conteiner {
+position: relative; float: left;
+}
+.form_conteiner_p {
+font-family: psp2; font-size: 14px; line-height: 35px;
+color: #000000;
+}
+.form_conteiner span {
+position: absolute; right: 0; top: 0;
+font-family: psp1; font-size: 14px; line-height: 35px;
+color: #000000; cursor: pointer;
+}
+
+.input1 {
+position: relative; float: left; width: 170px;
+font-size: 16px; font-family: psp2; color: #001f81;
+background: none; border: 3px solid #001f81; border-radius: 5px;
+outline: none; padding: 10px 35px 10px 20px;
+}
+.textarea1 {
+position: relative; float: left; width: 200px;
+height: 100px; font-size: 16px; font-family: psp2;
+color: #001f81; background: none; border: 3px solid #001f81;
+border-radius: 5px; outline: none; padding: 10px 35px 10px 20px;
+}
+.input1:focus,.textarea1:focus {
+color: #ff0000 !important;
+}
+.forms_ico_F {
+position: absolute; right: 8px; bottom: 10px;
+width: 24px;
+}
+.forms_ico_L {
+position: absolute; right: 8px; bottom: 10px;
+width: 24px; display: none; will-change: transform;
+}
+
+.form_conteiner2 {
+position: relative; float: left; width: 236px;
+z-index: 20; overflow: hidden;
+}
+.form_conteiner2:hover {
+overflow: visible;
+}
+.form_conteiner2:hover .forms_ico_FO1 {
+opacity: 0;
+}
+.form_conteiner2:hover .forms_ico_LO1 {
+display: block;
+}
+.form_select {
+position: relative; float: left; width: 175px;
+font-family: psp2; font-size: 16px; line-height: 14px;
+color: #001f81; border: 3px solid #001f81; border-radius: 5px;
+padding: 12px 35px 11px 20px;
+}
+.form_conteiner2:hover .form_select {
+border-radius: 5px 5px 0px 0px !important;
+}
+.form_select_spisok_block {
+position: absolute; left: 0; top: 100%;
+width: 230px; border-radius: 0px 0px 5px 5px; background: #ffffff;
+border-left: 3px solid #001f81; border-bottom: 3px solid #001f81;
+border-right: 3px solid #001f81;
+
+}
+.form_select_spisok_item {
+position: relative; float: left; width: 86%;
+font-family: psp2; font-size: 16px; line-height: 14px;
+color: #001f81; cursor: pointer; padding: 10px 5% 10px 9%;
+}
+.form_select_spisok_item:hover {
+background: #001f81; color: #ffffff;
+}
+
+.form_radio {
+position: relative; float: left; width: 150px;
+height: 18px; cursor: pointer;
+}
+.form_radio_ico1 {
+position: absolute; left: 0; top: 0;
+width: 18px;
+}
+.form_radio_ico2 {
+position: absolute; left: 0; top: 0;
+width: 18px; display: none; will-change: transform;
+}
+.form_radio_text {
+position: relative; float: left; margin: 2px 0 0 30px;
+font-family: psp2; font-size: 16px; line-height: 16px;
+color: #000000;
+}
+
+
+
+/* квартиры */
+.houses_header {
+position: relative; float: left; width: 100%;
+}
+.houses_header_text1 {
+position: absolute; left: 3%; top: 10%;
+font-family: psp3; font-size: 1.56vw; line-height: 2vw;
+color: #ffffff; text-transform: uppercase;
+}
+.houses_header_text2 {
+position: absolute; left: 3%; top: 65%;
+font-family: psp1; font-size: 0.9vw; line-height: 1.3vw;
+color: #ffffff;
+}
+
+.kv_filtri {
+position: relative; float: right; width: 97%;
+margin: 2vw 0 0 0;
+}
+
+.filtr_dom_nomer {
+position: relative; float: left; width: 8%;
+font-family: psp2; font-size: 0.8vw; line-height: 1.5vw;
+color: #000000; padding: 0 0 0 1%;
+}
+
+.filtr_tip {
+position: relative; float: left; width: 9%;
+overflow: hidden;
+}
+.filtr_tip_select {
+position: relative; float: left; font-family: psp2;
+font-size: 0.8vw; height: 1.5vw; color: #000000;
+background: unset; border: unset; outline: unset;
+cursor: pointer;
+}
+
+.filtr_dom {
+position: relative; float: left; width: 11%;
+overflow: hidden;
+}
+.filtr_dom_select {
+position: relative; float: left; font-family: psp2;
+font-size: 0.8vw; height: 1.5vw; color: #000000;
+background: unset; border: unset; outline: unset;
+cursor: pointer;
+}
+
+.filtr_sec {
+position: relative; float: left; width: 11%;
+overflow: hidden;
+}
+.filtr_sec_select {
+position: relative; float: left; font-family: psp2;
+font-size: 0.8vw; height: 1.5vw; color: #000000;
+background: unset; border: unset; outline: unset;
+cursor: pointer;
+}
+
+.filtr_etj {
+position: relative; float: left; width: 10%;
+overflow: hidden;
+}
+.filtr_etj_select {
+position: relative; float: left; font-family: psp2;
+font-size: 0.8vw; height: 1.5vw; color: #000000;
+background: unset; border: unset; outline: unset;
+cursor: pointer;
+}
+
+.filtr_stat {
+position: relative; float: left; width: 11%;
+overflow: hidden;
+}
+.filtr_stat_select {
+position: relative; float: left; font-family: psp2;
+font-size: 0.8vw; height: 1.5vw; color: #000000;
+background: unset; border: unset; outline: unset;
+cursor: pointer; width: 70%;
+}
+
+.vivod_kv {
+position: relative; float: right; width: 97%;
+margin: 2vw 0 0 0;
+}
+.vivod_kv_block {
+position: relative; float: left; width: 100%;
+}
+.vivod_kv_block_item {
+position: relative; float: left; width: 100%;
+border-top: 1px solid #888888; color: #000000;
+}
+.vivod_kv_block_item_bron {background: #ffa000;}
+.vivod_kv_block_item_bron_prosr {background: #ff0000;}
+.vivod_kv_block_item:hover {
+background: #e6e6e6;
+}
+.vivod_kv_block_item1 {
+position: absolute; left: 0; top: 0;
+width: 86%; height: 100%; cursor: pointer;
+}
+.vivod_kv_block_item_p1 {
+position: relative; float: left; width: 8%;
+font-family: psp1; font-size: 0.8vw; line-height: 1vw;
+color: inherit; padding: 1vw 0 1vw 1%;
+}
+.vivod_kv_block_item_upravlenie {
+position: relative; float: left; width: 8%;
+padding: 0 0 0 1%;
+}
+
+.vivod_kv_but_plan {
+position: relative; float: left; width: 0.83vw;
+height: 2vw; cursor: pointer; margin: 0.7vw 0 0 0;
+overflow: hidden;
+}
+.vivod_kv_but_plan_ico1 {
+position: absolute; left: 0; top: 0;
+width: 100%; display: block; will-change: transform;
+}
+.vivod_kv_but_plan_ico2 {
+position: absolute; left: 0; top: 0;
+width: 100%; display: none; will-change: transform;
+}
+.vivod_kv_but_plan_img {
+position: absolute; right: 200%; top: 0;
+z-index: 100; border: 4px solid #271f5c; background: #cccccc;
+padding: 10px; border-radius: 7px;
+}
+.vivod_kv_but_plan:hover {
+overflow: unset;
+}
+.vivod_kv_but_plan:hover .vivod_kv_but_plan_ico1 {
+display: none;
+}
+.vivod_kv_but_plan:hover .vivod_kv_but_plan_ico2 {
+display: block;
+}
+
+.vivod_kv_but_edit {
+position: relative; float: left; width: 0.83vw;
+height: 2vw; cursor: pointer; margin: 0.7vw 0 0 1vw;
+}
+.vivod_kv_but_edit_ico1 {
+position: absolute; left: 0; top: 0;
+width: 100%; display: block; will-change: transform;
+}
+.vivod_kv_but_edit_ico2 {
+position: absolute; left: 0; top: 0;
+width: 100%; display: none; will-change: transform;
+}
+.vivod_kv_but_edit:hover .vivod_kv_but_edit_ico1 {
+display: none;
+}
+.vivod_kv_but_edit:hover .vivod_kv_but_edit_ico2 {
+display: block;
+}
+
+.vivod_kv_but_status_block {
+position: relative; float: left; width: 1.5vw;
+height: 1.5vw; cursor: pointer; margin: 0.7vw 0 0 1vw;
+}
+.vivod_kv_but_status1 {
+position: absolute; left: 0; top: 0;
+width: 100%; height: 100%; border-radius: 500px;
+}
+.vivod_kv_but_status2 {
+position: absolute; left: 0; top: 0;
+width: 100%; height: 100%; border-radius: 500px;
+display: none;
+}
+.kv_stat0 {
+background: #00b81e;
+}
+.kv_stat1 {
+background: #ff3600;
+}
+.kv_stat2 {
+background: #eea534;
+}
+.vivod_kv_but_status_block:hover .vivod_kv_but_status1 {
+display: none;
+}
+.vivod_kv_but_status_block:hover .vivod_kv_but_status2 {
+display: block;
+}
+
+.vivod_kv_but_status_block {
+position: relative; float: left; width: 1.5vw;
+height: 1.5vw; cursor: pointer; margin: 0.7vw 0 0 1vw;
+}
+.vivod_kv_but_status1 {
+position: absolute; left: 0; top: 0;
+width: 100%; height: 100%; border-radius: 500px;
+}
+.vivod_kv_but_status2 {
+position: absolute; left: 0; top: 0;
+width: 100%; height: 100%; border-radius: 500px;
+display: none;
+}
+.kv_stat0 {
+background: #00b81e;
+}
+.kv_stat1 {
+background: #ff3600;
+}
+.kv_stat2 {
+background: #eea534;
+}
+.vivod_kv_but_status_block:hover .vivod_kv_but_status1 {
+display: none;
+}
+.vivod_kv_but_status_block:hover .vivod_kv_but_status2 {
+display: block;
+}
+
+.vivod_kv_block_height {
+position: relative; float: left; width: 100%;
+height: 10vw;
+}
+
+
+
+/* хеад */
+.head_main_block {
+position: relative; float: left; width: 100%;
+height: 6.5vw; background: #ffffff;
+}
+
+.head_text1 {
+position: absolute; left: 5%; top: 25%;
+font-family: psp1; font-size: 0.73vw; line-height: 0.73vw;
+color: #000000;
+}
+
+.head_text2 {
+position: absolute; left: 4%; top: 47%;
+font-family: psp2; font-size: 1.76vw; line-height: 1.76vw;
+color: #a3a3a3;
+}
+.head_text2 span {
+font-family: psp3; color: #271f5c;
+}
+
+.head_but_sait {
+position: absolute; left: 43.5%; top: 34%;
+font-family: psp1; font-size: 0.94vw; line-height: 2.4vw;
+color: #ffffff; padding: 0 1.6vw; background: #385fd9;
+}
+
+.head_but_vopros {
+position: absolute; right: 4%; top: 34%;
+width: 13%; height: 2vw; border: 0.2vw solid #00c9e7;
+border-radius: 5vw; cursor: pointer;
+}
+.head_but_vopros span {
+position: absolute; left: 31%; top: 30%;
+font-family: psp2; font-size: 0.8vw; line-height: 0.8vw;
+color: #271f5c;
+}
+.head_but_vopros_ico1 {
+position: absolute; left: 10%; top: 30%;
+width: 11%; will-change: transform;
+}
+.head_but_vopros_ico2 {
+position: absolute; left: 10%; top: 30%;
+width: 11%; display: none; will-change: transform;
+}
+.head_but_vopros:hover .head_but_vopros_ico1 {
+display: none;
+}
+.head_but_vopros:hover .head_but_vopros_ico2 {
+display: block;
+}
+
+
+
+/* меню */
+.menu_left_punkt {
+transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+}
+
+.menu_left_mainblock {
+position: fixed; left: 0; top: 0;
+width: 18%; background: #271f5c; min-height: 100%;
+z-index: 100;
+}
+
+.menu_left_logo {
+position: relative; float: left; width: 63%;
+margin: 2vw 0 3vw 16%;
+}
+
+.menu_left_punkt {
+position: relative; float: left; width: 77%;
+font-family: psp2; font-size: 0.95vw; line-height: 3.1vw;
+color: #ffffff; background: unset; padding: 0 0 0 23%;
+cursor: pointer;
+}
+.menu_left_punkt_active {
+color: #6c148c; background: #ffffff;
+}
+.menu_left_punkt_ico {
+position: absolute; right: 7%; top: 35%;
+width: 3%; display: none;
+}
+.menu_left_punkt_ico_active {
+display: block;
+}
+.menu_left_punkt:hover {
+color: #6c148c; background: #ffffff;
+}
+.menu_left_punkt:hover .menu_left_punkt_ico {
+display: block;
+}
+
+.menu_left_text1 {
+position: relative; float: left; margin: 10vw 0 0 23%;
+font-family: psp1; font-size: 0.58vw; line-height: 0.7vw;
+color: #ffffff;
+}
+.menu_left_text2 {
+position: relative; float: left; margin: 12vw 0 0 10%;
+font-family: psp1; font-size: 0.6vw; line-height: 1.2vw;
+color: #ffffff; padding: 0 1vw; background: #ff0000;
+}
+
+
+
+/* нтмл энд */
+.adm_div1 {
+display: none;
+}
+
+.adm_div2 {
+position: fixed; width: 100%; height: 100vh;
+left: 0; top: 0; z-index: 690;
+display: none; overflow: auto; background-color: rgba(0,0,0,0.8);
+}
+
+.adm_div2_dop {
+position: fixed; width: 100%; height: 100vh;
+left: 0; top: 0; z-index: 700;
+display: none; overflow: auto; background-color: rgba(0,0,0,0.8);
+}
+
+.adm_letter_go {
+position: fixed; width: 100%; height: 100vh;
+left: 0; top: 0; z-index: 680; display: none; overflow: hidden;
+background-color: rgba(100,100,100,0.9);
+}
+
+.adm_zagr {
+position: fixed; width: 100vw; height: 100vh;
+left: 0; top: 0; z-index: 999; overflow: hidden;
+display: none;
+}
+.adm_zagr div {
+position: absolute; left: 0%; top: 45%;
+width: 100%; font-family: psp2; font-size: 3vw;
+line-height: 3vw; text-align: center; color: #ffffff;
+text-transform: uppercase; text-shadow: 1px 1px 1px #000000;
+}
+
+
+
+/* общие стили */
+#loader_main {
+position: fixed; left: 0%; top: 45%;
+width: 100vw; font-family: psp2; font-size: 3vw;
+line-height: 3vw; text-align: center; color: #000000;
+text-transform: uppercase; text-shadow: 1px 1px 1px #ffffff;
+}
+#logo_zagr_main {
+display: block; margin: 0 auto;
+}
+
+.body_full {
+position: absolute; left: 0; top: 0;
+width: 100vw; height: 100vh; overflow: hidden;
+margin: 0px; font-family: psp1;
+}
+.body_relative {
+position: relative; float: left; width: 100%;
+background: #ffffff; margin: 0px; font-family: psp1;
+}
+
+.mainfondiv {
+position: absolute; left: 0px; top: 0px;
+width: 100vw; height: 100vh; color: #ffffff;
+overflow: hidden; opacity: 0;
+}
+.mainfondiv2 {
+position: relative; float: right; width: 82%; 
+color: #ffffff; overflow: hidden;
+}
+.mainfondiv_1 {
+background: #ffffff;
+}
+.mainfondiv_2 {
+background: url(/img_dop/bg-etj.jpg) center center; background-size: cover;
+}
+.mainfondiv_3 {
+background: url(/img/podbor-bg.jpg) center center; background-size: cover;
+}
+.mainfondiv_4 {
+background: url(/img/doc-bg.jpg) center center; background-size: cover;
+}
+
+.img_v {
+width: 100%; position: relative;
+}
+.img_f {
+width: 100%; position: relative; opacity: 0;
+}
+
+/*::-webkit-input-placeholder {color:#ffffff;}
+::-moz-placeholder          {color:#ffffff;}
+:-moz-placeholder           {color:#ffffff;}
+:-ms-input-placeholder      {color:#ffffff;}*/
+
+.img_hover {
+opacity: 0 !important;
+}
+.img_hover:hover {
+opacity: 1 !important;
+}
+.txt_hover:hover {
+color: #5ed0b6 !important;
+}
+
+.jspDrag {
+background: #ff0000 !important;
+}
+.jspTrack {
+background: #000000 !important;
+}
+#konfident {
+width: 100% !important;
+padding-right: 3% !important;
+outline: none !important;
+}
+#konfident .jspVerticalBar {
+background: none !important;
+width: 1% !important;
+}
+.jspContainer {
+width: 100% !important;
+height: 100% !important;
+}
+.jspPane {
+padding-top: 0 !important;
+padding-bottom: 0 !important;
+width: 100% !important;
+}
+.jspHorizontalBar {
+opacity: 0 !important;
+}
+.mfp-title {
+font-size: 14px !important;
+}
+.mfp-figure:after {
+background: none !important;
+box-shadow: none !important;
+}
+
+p,h1,h2,h3 {
+margin: 0; font-weight: normal;
+}
+
+img {
+border: none;
+}
+
+a {
+text-decoration: none;
+outline: none !important;
+color: inherit;
+}
+
+@font-face {
+font-family: "psp1";
+src: url(/admin/fonts/HelveticaNeueCyr-Roman.eot);
+}
+@font-face {
+font-family: "psp1";
+src: url(/admin/fonts/HelveticaNeueCyr-Roman.ttf);
+}
+
+@font-face {
+font-family: "psp2";
+src: url(/admin/fonts/HelveticaNeueCyr-Bold.eot);
+}
+@font-face {
+font-family: "psp2";
+src: url(/admin/fonts/HelveticaNeueCyr-Bold.ttf);
+}
+
+@font-face {
+font-family: "psp3";
+src: url(/admin/fonts/HelveticaNeueCyr-Black.eot);
+}
+@font-face {
+font-family: "psp3";
+src: url(/admin/fonts/HelveticaNeueCyr-Black.ttf);
+}
+
+.p100 {
+position: relative; float: left;
+width: 100%; height: 1px;
+}
+
+.line_r {
+position: absolute; right: 0px; top: 0px;
+width: 1px; height: 100%; background: #646464;
+}
+.line_t {
+position: absolute; left: 0px; top: 0px;
+width: 100%; height: 1px; background: #646464;
+}
+.line_b {
+position: absolute; left: 0px; bottom: 0px;
+width: 100%; height: 1px; background: #646464;
+}
+.line_l {
+position: absolute; left: 0px; top: 0px;
+width: 1px; height: 100%; background: #646464;
+}
+
+.inp,.inp2,.inp3,.inp4 {
+background-color: #fafafa;
+height: 16px;
+padding: 6px 12px;
+color: #555;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+font-family: Verdana;
+font-size: 12px;
+outline: none;
+}
+
+.inp2,.inp3,.inp4 {
+cursor: pointer;
+}
+
+.inp:focus {
+border-color: #66afe9;
+outline: 0;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.inp2:hover {
+background-color: #e6e6e6;
+border-color: #adadad;
+outline: 0;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.inp3:hover {
+color: #fff;
+background-color: #449d44;
+border-color: #398439;
+outline: 0;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.inp4:hover {
+color: #fff;
+background-color: #c9302c;
+border-color: #ac2925;
+outline: 0;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
