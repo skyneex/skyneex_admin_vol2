@@ -43,7 +43,7 @@ $sqll=$sqll." order by Ndoma,Nkv,id";
 	$kl_rk6=$db->kl_rk6;
 	if ($kl_rk1!="" or $kl_rk2!="" or $kl_rk3!="" or $kl_rk5!="" or $kl_imy!="" or $kl_eml!="" or $kl_tel!="" or $kl_fir!="") $date_cvet="vivod_kv_block_item_bron"; else $date_cvet="";
 	$ft_put="../../kv".$Ndoma."/";
-	$ddd=date(d); $mmm=date(m); $ggg=date(Y); $dataNow=($ggg*372)+($mmm*31)+$ddd; $dataKV=($kl_rkk5[2]*372)+($kl_rkk5[1]*31)+$kl_rkk5[0]; if($dataNow>=$dataKV and $kl_rk5!="") $date_cvet="vivod_kv_block_item_bron_prosr";
+	$ddd=date('d'); $mmm=date('m'); $ggg=date('Y'); $dataNow=($ggg*372)+($mmm*31)+$ddd; $dataKV=($kl_rkk5[2]*372)+($kl_rkk5[1]*31)+$kl_rkk5[0]; if($dataNow>=$dataKV and $kl_rk5!="") $date_cvet="vivod_kv_block_item_bron_prosr";
 	?>
 
 	<div class="vivod_kv_block_item <?echo $date_cvet;?>">
