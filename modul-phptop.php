@@ -22,6 +22,7 @@ if (strpos($Uri,'/admin/shares/') !== false) $_SESSION['amen']=5;
 if (strpos($Uri,'/admin/settings/') !== false) $_SESSION['amen']=6;
 if (strpos($Uri,'/admin/gallery/') !== false) $_SESSION['amen']=7;
 if (strpos($Uri,'/admin/parking/') !== false) $_SESSION['amen']=8;
+if (strpos($Uri,'/admin/kompas/') !== false) $_SESSION['amen']=9;
 
 $host="192.168.100.1";
 $user="triumf";

@@ -8,6 +8,7 @@
 	<a href="/admin/news/" class="menu_left_punkt <?if($_SESSION['amen']==4){?>menu_left_punkt_active<?};?>">Новости<img class="menu_left_punkt_ico animated rubberBand <?if($_SESSION['amen']==4){?>menu_left_punkt_ico_active<?};?>" src="/admin/img/menu_left_punkt_ico.png" alt="" /></a>
 	<a href="/admin/shares/" class="menu_left_punkt <?if($_SESSION['amen']==5){?>menu_left_punkt_active<?};?>">Акции<img class="menu_left_punkt_ico animated rubberBand <?if($_SESSION['amen']==5){?>menu_left_punkt_ico_active<?};?>" src="/admin/img/menu_left_punkt_ico.png" alt="" /></a>
 	<a href="/admin/gallery/" class="menu_left_punkt <?if($_SESSION['amen']==7){?>menu_left_punkt_active<?};?>">Галереи<img class="menu_left_punkt_ico animated rubberBand <?if($_SESSION['amen']==7){?>menu_left_punkt_ico_active<?};?>" src="/admin/img/menu_left_punkt_ico.png" alt="" /></a>
+	<a href="/admin/kompas/" class="menu_left_punkt <?if($_SESSION['amen']==9){?>menu_left_punkt_active<?};?>">Компасы<img class="menu_left_punkt_ico animated rubberBand <?if($_SESSION['amen']==9){?>menu_left_punkt_ico_active<?};?>" src="/admin/img/menu_left_punkt_ico.png" alt="" /></a>
 	<a href="/admin/settings/" class="menu_left_punkt <?if($_SESSION['amen']==6){?>menu_left_punkt_active<?};?>">Настройки сайта<img class="menu_left_punkt_ico animated rubberBand <?if($_SESSION['amen']==6){?>menu_left_punkt_ico_active<?};?>" src="/admin/img/menu_left_punkt_ico.png" alt="" /></a>
 
 	<div class="menu_left_text1">КОМПЛЕКСНАЯ<br />РАЗРАБОТКА<br />ПРОЕКТОВ ДЛЯ<br />СТРОИТЕЛЬНЫХ<br />КОМПАНИЙ</div>
